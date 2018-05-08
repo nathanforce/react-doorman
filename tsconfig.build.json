@@ -1,0 +1,27 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "build",
+    "declaration": true,
+    "jsx": "react",
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["es6", "es2015", "es2017", "dom"],
+    "paths": {
+      "@escher/ui": ["src/"]
+    },
+    "baseUrl": "."
+  },
+  "exclude": [
+    "build",
+    "node_modules",
+    "coverage",
+    "config",
+    "src/**/*.test.ts",
+    "src/**/*.test.tsx",
+    "src/**/*.story.tsx",
+    "website"
+  ]
+}

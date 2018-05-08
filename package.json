@@ -1,0 +1,28 @@
+{
+  "name": "react-doorman",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "description": "User authentication management for react",
+  "author": "Nathan Force <nathan.a.force@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc -p tsconfig.build.json -w",
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0.35",
+    "@types/react-dom": "^16.0.3",
+    "prettier": "^1.12.1",
+    "react-scripts-ts": "^2.13.0",
+    "tslint": "^5.9.1",
+    "tslint-react": "^3.4.0",
+    "typescript": "2.8.1"
+  },
+  "peerDependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "dependencies": {
+    "change-case": "^3.0.2"
+  }
+}
